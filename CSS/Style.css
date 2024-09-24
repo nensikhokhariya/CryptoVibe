@@ -55,6 +55,26 @@ ul li {
 }
 
 /* -------------HEADER------------------- */
+
+header.header-main {
+  padding: 48px 0;
+  position: relative;
+  z-index: 1;
+}
+header.header-main:after{
+  content: ''; 
+  display: block;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  background-image: url('../Images/Vector\ 4.png');
+  background-size: cover; 
+  background-position: center; 
+  opacity: 0.5; 
+  z-index: -1;
+
+}
+
 .header-main .main-header-wrapper {
   display: flex;
   align-items: center;
@@ -69,12 +89,17 @@ ul li {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  justify-content: right;
 }
 
 .header-main .main-nav-menu ul.nav-menu-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.header-main .main-nav-menu ul.nav-menu-wrapper li {
+  padding: 0 24px;
 }
 
 .header-main .main-nav-menu ul.nav-menu-wrapper li a {
@@ -94,4 +119,51 @@ ul li {
   width: 100%;
   box-shadow: 0px 16px 30px #003861;
   border-radius: 24px;
+  padding-bottom: 5px;
+  /* Adjust this value as needed */
+}
+
+.header-main  .button-container {
+  display: flex;
+  border: 2px solid #00C3FD;
+  filter: drop-shadow(0px 16px 30px #014678);
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.header-main  .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header-main .connected {
+  /* background-color: #001F3F; */
+}
+
+.header-main .connect-wallet {
+  /* background: linear-gradient(65.84deg, #00C3FD 25.98%, #0194FE 65.48%); */
+  
+}
+
+.header-main .btn:hover {
+  opacity: 0.85;
+}
+
+.header-main #connectedButton.active {
+  background: linear-gradient(83.46deg, #00C3FD -13.99%, #0194FE 31.77%, #0284E2 73.27%);
+  border-radius: 24px;
+  box-shadow: 0px 16px 30px #014678;
+}
+
+.header-main #connectWalletButton.active {
+  background: linear-gradient(83.46deg, #00C3FD -13.99%, #0194FE 31.77%, #0284E2 73.27%);
+  border-radius: 24px;
+  box-shadow: 0px 16px 30px #014678;
+  
 }
