@@ -1,0 +1,92 @@
+
+
+
+
+
+
+
+@media (max-width: 991px){
+    .header-main .main-nav-menu{
+        justify-content: left;
+    }
+    .header-main .main-nav-menu ul.nav-menu-wrapper li {
+        padding: 0 10px;
+    }
+    .header-main .btn{
+        padding: 10px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* Media Query for Mobile Devices */
+
+@media (max-width: 767px) {
+    .header-main .main-nav-menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        z-index: 2;
+    }
+
+    .header-main .toggle-button {
+        display: block;
+        font-size: 45px;
+    }
+
+    .header-main .main-nav-menu.show {
+        display: block;
+        width: 100%;
+        padding: 20px;
+        background: #FFF;
+        height: 100vh;
+    }
+
+    .header-main .header-buttons {
+        flex-direction: column;
+        margin-top: 10px;
+        padding: 10px;
+        width: fit-content;
+    }
+
+    .header-main .header-buttons .button-container {
+        display: flex;
+        /* flex-direction: column; */
+        /* width: 100%; */
+        /* justify-content: space-between; */
+    }
+    .header-main .main-nav-menu ul.nav-menu-wrapper{
+        display: block;
+    }
+    .header-main .main-nav-menu ul.nav-menu-wrapper li {
+        padding: 24px 0;
+    }
+    .header-main .main-nav-menu ul.nav-menu-wrapper li a {
+        font-size: 24px;
+        color: #01071B;
+    }
+    .header-main .header-logo {
+        width: 50%;
+    }
+    .header-main .header-right-menu-cta{width: 100%;}
+    .header-main .btn{font-size: 14px;color: #01071B;}
+    .header-main #connectedButton.active{
+        color: #FFF;
+    }
+    .header-main #connectWalletButton.active{
+        color: #FFF;
+    }
+    .header-main .main-nav-menu ul.nav-menu-wrapper li a:hover{
+        box-shadow: none;
+        color: #01071B;
+    }
+}

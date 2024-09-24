@@ -54,24 +54,58 @@ ul li {
   margin: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+
+.button {
+  background: linear-gradient(65.84deg, #00C3FD 25.98%, #0194FE 65.48%);
+  box-shadow: 0px 16px 30px #003861;
+  border-radius: 23.5px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  display: inline-block;
+  padding: 15px 32px;
+  border-image: linear-gradient(65.84deg, #00C3FD 25.98%, #0194FE 65.48%);
+  border-image-slice: 1;
+  cursor: pointer; /* Added */
+  transition: background 0.3s, box-shadow 0.3s; /* Added */
+}
+.button:hover{
+  background: linear-gradient(65.84deg, #0194FE 25.98%, #00C3FD 65.48%);
+  box-shadow: 0px 12px 20px #003861; /* Slightly reduced shadow */
+}
+
+
+
+
+
+
 /* -------------HEADER------------------- */
 
 header.header-main {
   padding: 48px 0;
-  position: relative;
+  position: fixed;
+  width: 100%;
   z-index: 1;
-}
-header.header-main:after{
-  content: ''; 
-  display: block;
-  position: absolute; 
-  top: 0;
   left: 0;
-  background-image: url('../Images/Vector\ 4.png');
-  background-size: cover; 
-  background-position: center; 
-  opacity: 0.5; 
-  z-index: -1;
+  top: 0;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+
 
 }
 
@@ -86,6 +120,12 @@ header.header-main:after{
 
 .header-main .header-right-menu-cta {
   width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+.header-main .main-nav-menu {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -123,7 +163,7 @@ header.header-main:after{
   /* Adjust this value as needed */
 }
 
-.header-main  .button-container {
+.header-main .button-container {
   display: flex;
   border: 2px solid #00C3FD;
   filter: drop-shadow(0px 16px 30px #014678);
@@ -131,7 +171,7 @@ header.header-main:after{
   overflow: hidden;
 }
 
-.header-main  .btn {
+.header-main .btn {
   padding: 10px 20px;
   font-size: 16px;
   font-weight: 600;
@@ -148,7 +188,7 @@ header.header-main:after{
 
 .header-main .connect-wallet {
   /* background: linear-gradient(65.84deg, #00C3FD 25.98%, #0194FE 65.48%); */
-  
+
 }
 
 .header-main .btn:hover {
@@ -165,5 +205,68 @@ header.header-main:after{
   background: linear-gradient(83.46deg, #00C3FD -13.99%, #0194FE 31.77%, #0284E2 73.27%);
   border-radius: 24px;
   box-shadow: 0px 16px 30px #014678;
-  
+
+}
+
+.header-main .header-right-menu-cta {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: right;
+  position: relative;
+}
+
+
+.toggle-button {
+  display: none; /* Hidden by default */
+  font-size: 30px; /* Adjust as needed */
+  cursor: pointer;
+}
+
+
+/* Banner Section */
+
+.banner-section {
+  background-image: url('../Images/banner-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 230px 0;
+}
+
+.banner-section .main-banner-wrapper {
+  display: flex;
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.banner-section .banner-content-block {
+  width: 60%;
+}
+
+.banner-section .banner-content-block h1 {
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.banner-section .banner-content-block P {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 55px;
+}
+
+.banner-section .banner-content-block P>span.bottom-line {
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(89.03deg, rgba(0, 195, 253, 0.02) -18.33%, #00C3FD 23.35%, #0194FE 60.49%, rgba(1, 148, 254, 0) 108.53%);
+  filter: drop-shadow(0px 16px 30px #003861);
+  border-image-slice: 1;
+  border-radius: 23.5px;
+  text-transform: uppercase;
+}
+
+.banner-section .banner-image-block {
+  width: 40%;
 }

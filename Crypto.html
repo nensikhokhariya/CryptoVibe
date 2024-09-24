@@ -6,40 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cryptovibe</title>
     <link rel="stylesheet" href="./CSS/Style.css">
+    <link rel="stylesheet" href="./CSS/Responsive.css">
 </head>
 
 <body>
-    <header class="header-main">
-        <div class="page-center">
-            <div class="main-header-wrapper">
-                <div class="header-logo">
-                    <img src="./Images/Header_logo.png" alt="Cryptovibe Logo" width="303" height="54">
-                </div>
+    <!DOCTYPE html>
+    <html lang="en">
 
-                <div class="header-right-menu-cta">
-                    <div class="main-nav-menu">
-                        <ul class="nav-menu-wrapper">
-                            <li><a href="##">Page 1</a></li>
-                            <li><a href="##">Page 2</a></li>
-                            <li><a href="##">Page 3</a></li>
-                            <li><a href="##">Page 4</a></li>
-                        </ul>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cryptovibe</title>
+        <link rel="stylesheet" href="./CSS/Style.css">
+        <link rel="stylesheet" href="./CSS/Responsive.css">
+        
+    </head>
+
+    <body>
+        <header class="header-main">
+            <div class="page-center">
+                <div class="main-header-wrapper">
+                    <div class="header-logo">
+                        <a href="./Crypto.html"><img src="./Images/Header_logo.png" alt="Cryptovibe Logo"
+                                width="303"></a>
                     </div>
-                    <div class="header-buttons">
-                        <div class="button-container">
-                            <button id="connectedButton" class="btn connected">Connected</button>
-                            <button id="connectWalletButton" class="btn connect-wallet">Connect wallet</button>
+
+                    <div class="header-right-menu-cta">
+                        <div class="toggle-button" id="toggleMenuButton">
+                            ☰
+                        </div>
+                        <div class="main-nav-menu" id="navMenu">
+                            <ul class="nav-menu-wrapper">
+                                <li><a href="##">Page 1</a></li>
+                                <li><a href="##">Page 2</a></li>
+                                <li><a href="##">Page 3</a></li>
+                                <li><a href="##">Page 4</a></li>
+                            </ul>
+                            <div class="header-buttons">
+                                <div class="button-container">
+                                    <button id="connectedButton" class="btn connected">Connected</button>
+                                    <button id="connectWalletButton" class="btn connect-wallet">Connect wallet</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </div>
-    </header>
+        </header>
 
 
+        <!-- Banner Section -->
 
-    <script src="./JS/Main.js"></script>
-</body>
 
-</html>
+        <section class="banner-section">
+            <div class="page-center">
+                <div class="main-banner-wrapper">
+                    <div class="banner-content-block">
+                        <h1>CryptoVibe</h1>
+                        <p><span class="bottom-line">The best</span> crypto smart-contract to make better future.
+                            <br>Start building your smart contract with <span class="bottom-line">CryptoVibe</span>.</p>
+                        <div class="banner-button">
+                            <a href="##" class="button">Create a contract</a>
+                        </div>
+                    </div>
+                    <div class="banner-image-block">
+                        <img src="./Images/Banner-mobile.png" alt="Banner Mobile">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./JS/Main.js"></script>
+    </body>
+
+    </html>
