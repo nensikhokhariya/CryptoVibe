@@ -337,14 +337,6 @@ h6 {
     transition: all 0.3s ease;
   }
 
-  .header-main .connected {
-    /* background-color: #001F3F; */
-  }
-
-  .header-main .connect-wallet {
-    /* background: linear-gradient(65.84deg, #00C3FD 25.98%, #0194FE 65.48%); */
-
-  }
 
   .header-main .btn:hover {
     opacity: 0.85;
@@ -375,9 +367,7 @@ h6 {
 
   .toggle-button {
     display: none;
-    /* Hidden by default */
     font-size: 30px;
-    /* Adjust as needed */
     cursor: pointer;
   }
 
@@ -385,10 +375,6 @@ h6 {
   /* Banner Section */
 
   .banner-section {
-    /* background-image: url('../Images/banner-bg.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
     padding: 230px 0;
   }
 
