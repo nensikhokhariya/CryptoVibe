@@ -1,19 +1,17 @@
-
-
-
-
-
-
-
-@media (max-width: 991px){
-    .header-main .main-nav-menu{
+@media (max-width: 991px) {
+    .header-main .main-nav-menu {
         justify-content: left;
     }
+
     .header-main .main-nav-menu ul.nav-menu-wrapper li {
         padding: 0 10px;
     }
-    .header-main .btn{
+
+    .header-main .btn {
         padding: 10px 12px;
+    }
+    .banner-section .banner-content-block h1{
+        font-size: 60px;
     }
 }
 
@@ -38,9 +36,21 @@
         z-index: 2;
     }
 
+    header.header-main {
+        padding: 15px 0;
+    }
+
     .header-main .toggle-button {
         display: block;
-        font-size: 45px;
+        font-size: 25px;
+        background: linear-gradient(60.69deg, #0194FE -1.41%, #5CD3E9 73.65%);
+        border-radius: 50%;
+        padding: 15px;
+        width: 50px;
+        height: 50px;
+        line-height: 20px;
+        text-align: center;
+
     }
 
     .header-main .main-nav-menu.show {
@@ -49,6 +59,7 @@
         padding: 20px;
         background: #FFF;
         height: 100vh;
+        overflow-y: scroll;
     }
 
     .header-main .header-buttons {
@@ -64,40 +75,72 @@
         /* width: 100%; */
         /* justify-content: space-between; */
     }
-    .header-main .main-nav-menu ul.nav-menu-wrapper{
+
+    .header-main .main-nav-menu ul.nav-menu-wrapper {
         display: block;
     }
+
     .header-main .main-nav-menu ul.nav-menu-wrapper li {
         padding: 24px 0;
     }
+
     .header-main .main-nav-menu ul.nav-menu-wrapper li a {
         font-size: 24px;
         color: #01071B;
     }
+
     .header-main .header-logo {
         width: 50%;
     }
-    .header-main .header-right-menu-cta{width: 100%;}
-    .header-main .btn{font-size: 14px;color: #01071B;}
-    .header-main #connectedButton.active{
+
+    .header-main .header-right-menu-cta {
+        width: 100%;
+        position: absolute;
+    }
+
+    .header-main .btn {
+        font-size: 14px;
+        color: #01071B;
+    }
+
+    .header-main #connectedButton.active {
         color: #FFF;
     }
-    .header-main #connectWalletButton.active{
+
+    .header-main #connectWalletButton.active {
         color: #FFF;
     }
-    .header-main .main-nav-menu ul.nav-menu-wrapper li a:hover{
+
+    .header-main .main-nav-menu ul.nav-menu-wrapper li a:hover {
         box-shadow: none;
         color: #01071B;
     }
+
     .banner-section .banner-content-block {
         width: 100%;
     }
-    .banner-section .banner-content-block h1{
+
+    .banner-section .banner-content-block h1 {
         font-size: 40px;
     }
+
     .banner-section .banner-content-block P {
         font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
+    }
+
+    .banner-section {
+        padding: 120px 0;
+    }
+
+    .banner-section .main-banner-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .banner-section .banner-image-block {
+        width: 100%;
+        max-width: 185px;
+        margin: 0 auto 30px;
     }
 }

@@ -112,6 +112,8 @@ header.header-main {
 .header-main .main-header-wrapper {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  position: relative;
 }
 
 .header-main .header-logo {
