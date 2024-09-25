@@ -89,4 +89,15 @@
         box-shadow: none;
         color: #01071B;
     }
+    .banner-section .banner-content-block {
+        width: 100%;
+    }
+    .banner-section .banner-content-block h1{
+        font-size: 40px;
+    }
+    .banner-section .banner-content-block P {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+    }
 }
