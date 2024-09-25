@@ -431,12 +431,28 @@ header.header-main {
   border-radius: 50px;
   padding: 50px 62px 65px;
 }
-.three-col-number-card-section .how-it-work-wrapper{
+
+.three-col-number-card-section .how-it-work-wrapper {
   display: flex;
   flex-wrap: wrap;
   margin: 0 -30px;
 }
-.three-col-number-card-section .inner-number-content-block{
+
+.three-col-number-card-section .inner-number-content-block {
   width: calc(33.33% - 60px);
   margin: 0 30px;
+}
+
+.three-col-number-card-section .inner-number-content-block .number-bg-block {
+  background: radial-gradient(525.96% 96.75% at 57.14% 50.65%, #00C3FD 0%, #0194FE 38.2%, #0194FE 100%);
+  box-shadow: 0px 6px 30px #003861;
+  border-radius: 50px;
+  width: 64px;
+  height: 64px;
+}
+.three-col-number-card-section .inner-number-content-block .number-bg-block h5{
+  font-weight: 600;
+  line-height: 60px;
+  text-align: center;
+  text-transform: uppercase;
 }
