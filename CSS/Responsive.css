@@ -10,8 +10,28 @@
     .header-main .btn {
         padding: 10px 12px;
     }
-    .banner-section .banner-content-block h1{
-        font-size: 60px;
+
+    .banner-section {
+        padding: 175px 0 120px;
+    }
+
+    .banner-section .banner-content-block P {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .about-company-section .about-image-block {
+        width: calc(50% - 25px);
+        margin-right: 25px;
+    }
+
+    .about-company-section .about-content-block {
+        width: calc(50% - 25px);
+        margin-left: 25px;
+    }
+
+    .about-company-section .about-content-block h2 {
+        margin: 0 0 50px;
     }
 }
 
@@ -120,9 +140,9 @@
         width: 100%;
     }
 
-    .banner-section .banner-content-block h1 {
+    /* .banner-section .banner-content-block h1 {
         font-size: 40px;
-    }
+    } */
 
     .banner-section .banner-content-block P {
         font-weight: 400;
@@ -142,5 +162,26 @@
         width: 100%;
         max-width: 185px;
         margin: 0 auto 30px;
+    }
+
+    /* About Company */
+    .about-company-section .about-image-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .about-company-section .about-content-block {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .about-company-section .about-content-block h2 {
+        margin: 0 0 30px;
+    }
+
+    .about-company-section .about-content-block .inner-content-block p:last-child {
+        font-size: 20px;
+        line-height: 1.5;
     }
 }
