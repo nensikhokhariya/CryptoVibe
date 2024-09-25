@@ -488,6 +488,14 @@ h6 {
   .three-col-number-card-section {
     padding: 0 0 100px;
   }
+  .three-col-number-card-section .col-heading-block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
 
   .three-col-number-card-section .main-how-it-work-card {
     background: rgba(43, 101, 150, 0.27);
