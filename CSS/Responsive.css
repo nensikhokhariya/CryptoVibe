@@ -47,6 +47,10 @@
     .about-company-section .about-content-block h2 {
         margin: 0 0 50px;
     }
+    .three-col-number-card-section .inner-number-content-block {
+        width: calc(50% - 60px);
+        margin: 0 30px 30px;
+      }
 
 }
 
@@ -206,9 +210,8 @@
 
 
     .three-col-number-card-section .inner-number-content-block {
-        width: calc(33.33% - 60px);
-        margin: 0 30px 30px;
-        text-align: -webkit-center;
+        width: 100%;
+        margin: 0 0 30px;
     }
 
 }
