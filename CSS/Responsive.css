@@ -1,3 +1,13 @@
+@media(max-width: 1400px) {
+    .three-col-number-card-section .how-it-work-wrapper {
+        margin: 0 -15px;
+    }
+}
+
+
+
+
+
 @media (max-width: 991px) {
     .header-main .main-nav-menu {
         justify-content: left;
@@ -193,4 +203,12 @@
         font-size: 20px;
         line-height: 1.5;
     }
+
+
+    .three-col-number-card-section .inner-number-content-block {
+        width: calc(33.33% - 60px);
+        margin: 0 30px 30px;
+        text-align: -webkit-center;
+    }
+
 }

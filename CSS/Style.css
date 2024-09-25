@@ -504,11 +504,9 @@ h6 {
 
   .three-col-number-card-section .inner-number-content-block {
     width: calc(33.33% - 60px);
-    margin: 0 30px;
+    margin: 0 30px 30px;
     text-align: -webkit-center;
   }
-
-
 
 
   .three-col-number-card-section .inner-number-content-block .number-bg-block h5 {
