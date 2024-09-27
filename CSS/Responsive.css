@@ -2,6 +2,11 @@
     .three-col-number-card-section .how-it-work-wrapper {
         margin: 0 -15px;
     }
+
+    .advantage-section .main-advantages-wrapper {
+        margin: 80px -15px;
+    }
+
 }
 
 
@@ -47,10 +52,14 @@
     .about-company-section .about-content-block h2 {
         margin: 0 0 50px;
     }
+
     .three-col-number-card-section .inner-number-content-block {
         width: calc(50% - 60px);
         margin: 0 30px 30px;
-      }
+    }
+    .advantage-section .main-advantages-wrapper {
+        margin: 60px -15px;
+    }
 
 }
 
@@ -212,6 +221,11 @@
     .three-col-number-card-section .inner-number-content-block {
         width: 100%;
         margin: 0 0 30px;
+    }
+
+    .advantage-section .inner-advantage-block {
+        width: 100%;
+        margin: 0 15px 30px;
     }
 
 }

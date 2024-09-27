@@ -46,3 +46,6 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function(){
+  $('.advantage-section .inner-advantage-block img').matchHeight();
+})
