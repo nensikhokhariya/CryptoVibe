@@ -525,7 +525,7 @@ header.header-main {
 .advantage-section .main-advantages-wrapper {
   display: flex;
   flex-wrap: wrap;
-  margin: 113px -30px;
+  margin: 113px -30px 90px;
 }
 
 .advantage-section .inner-advantage-block {
@@ -533,13 +533,86 @@ header.header-main {
   margin: 0 30px 30px;
   text-align: center;
 }
-.advantage-section .advantage-inner-content img{
+
+.advantage-section .advantage-inner-content img {
   width: 60px;
   height: 2px;
   border-radius: 6px;
   margin: 10px 0 20px;
 }
-.advantage-section .advantage-inner-content p{
+
+.advantage-section .advantage-inner-content p {
   max-width: 204px;
   margin: 0 auto;
+}
+
+.advantage-section .advantage-cta-block {
+  text-align: center;
+}
+
+
+/* tokenomics-section */
+.tokenomics-section {
+  padding: 0 0 100px;
+}
+
+.tokenomics-section .heading-block {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.tokenomics-section .tokenomics-main-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tokenomics-section .left-content-block{
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
+.tokenomics-section .left-content-block h4{
+  margin-bottom: 37px;
+}
+.tokenomics-section .left-content-block h5{
+  margin-bottom: 20px;
+  font-size: 23px;
+}
+.tokenomics-section .left-content-block p{max-width: 497px;}
+.tokenomics-section .left-content-block h5>span{
+  color: #01C3FD;
+}
+.tokenomics-section .right-structure-img{
+  width: calc(50% - 20px);
+  margin-left: 20px;
+}
+
+
+/* profit-distribution-section */
+
+.profit-distribution-section{
+  padding: 0 0 100px;
+
+}
+.profit-distribution-section .main-distribution-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.profit-distribution-section .left-image-block{
+  width: calc(50% - 20px);
+  margin-right: 20px;
+}
+.profit-distribution-section .right-content-block{
+  width: calc(50% - 20px);
+  margin-left: 20px;
+}
+.profit-distribution-section .right-content-block h4{
+  margin-bottom: 35px;
+}
+.profit-distribution-section .right-content-block h5{
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+.profit-distribution-section .right-content-block h5>span{
+  color: #01C3FD;
 }

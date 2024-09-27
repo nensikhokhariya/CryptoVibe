@@ -47,5 +47,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-  $('.advantage-section .inner-advantage-block img').matchHeight();
+  $('.advantage-section .inner-advantage-block .advantage-image').matchHeight(); 
+  $('.advantage-section .inner-advantage-block').matchHeight(); 
+  
 })

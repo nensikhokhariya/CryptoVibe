@@ -57,9 +57,11 @@
         width: calc(50% - 60px);
         margin: 0 30px 30px;
     }
+
     .advantage-section .main-advantages-wrapper {
         margin: 60px -15px;
     }
+
 
 }
 
@@ -226,6 +228,28 @@
     .advantage-section .inner-advantage-block {
         width: 100%;
         margin: 0 15px 30px;
+    }
+
+    .tokenomics-section .left-content-block {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .tokenomics-section .right-structure-img {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .profit-distribution-section .left-image-block {
+        width: 100%;
+        margin-right: 0 0 30px;
+    }
+
+    .profit-distribution-section .right-content-block {
+        width: 100%;
+        margin-left: 0;
     }
 
 }
