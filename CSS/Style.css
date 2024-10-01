@@ -566,22 +566,30 @@ header.header-main {
   flex-wrap: wrap;
   align-items: center;
 }
-.tokenomics-section .left-content-block{
+
+.tokenomics-section .left-content-block {
   width: calc(50% - 20px);
   margin-right: 20px;
 }
-.tokenomics-section .left-content-block h4{
+
+.tokenomics-section .left-content-block h4 {
   margin-bottom: 37px;
 }
-.tokenomics-section .left-content-block h5{
+
+.tokenomics-section .left-content-block h5 {
   margin-bottom: 20px;
   font-size: 23px;
 }
-.tokenomics-section .left-content-block p{max-width: 497px;}
-.tokenomics-section .left-content-block h5>span{
+
+.tokenomics-section .left-content-block p {
+  max-width: 497px;
+}
+
+.tokenomics-section .left-content-block h5>span {
   color: #01C3FD;
 }
-.tokenomics-section .right-structure-img{
+
+.tokenomics-section .right-structure-img {
   width: calc(50% - 20px);
   margin-left: 20px;
 }
@@ -589,30 +597,123 @@ header.header-main {
 
 /* profit-distribution-section */
 
-.profit-distribution-section{
+.profit-distribution-section {
   padding: 0 0 100px;
 
 }
-.profit-distribution-section .main-distribution-wrapper{
+
+.profit-distribution-section .main-distribution-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
-.profit-distribution-section .left-image-block{
+
+.profit-distribution-section .left-image-block {
   width: calc(50% - 20px);
   margin-right: 20px;
 }
-.profit-distribution-section .right-content-block{
+
+.profit-distribution-section .right-content-block {
   width: calc(50% - 20px);
   margin-left: 20px;
 }
-.profit-distribution-section .right-content-block h4{
+
+.profit-distribution-section .right-content-block h4 {
   margin-bottom: 35px;
 }
-.profit-distribution-section .right-content-block h5{
+
+.profit-distribution-section .right-content-block h5 {
   font-size: 23px;
   margin-bottom: 20px;
 }
-.profit-distribution-section .right-content-block h5>span{
+
+.profit-distribution-section .right-content-block h5>span {
   color: #01C3FD;
+}
+
+
+/* Footer */
+
+
+
+footer.main-footer {
+  padding: 0 0 72px;
+  position: relative;
+}
+
+/* footer.main-footer::before{
+position: absolute;
+content: url('../Images/footer-border.png');
+width: 100%;
+} */
+.main-footer .main-footer-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-footer .footer-logo {
+  width: 20%;
+}
+
+.main-footer .footer-menu {
+  width: 30%;
+}
+
+.main-footer .footer-social-media {
+  width: 25%;
+}
+
+.main-footer .footer-button {
+  width: 25%;
+}
+
+.main-footer .footer-logo img {
+  max-width: 204px;
+}
+
+.main-footer .footer-menu ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+
+.main-footer .footer-menu ul li a {
+  padding: 0 5px;
+}
+
+.main-footer .footer-social-media,
+.main-footer .footer-social-media ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-footer .footer-social-media p {
+  width: 30%;
+  margin: 0;
+}
+
+.footer-social-media ul {
+  width: 70%;
+  padding: 0;
+  margin: 0;
+}
+
+.main-footer .footer-social-media ul li {
+  width: 48px;
+  height: 48px;
+}
+
+
+.footer-bottom {
+  background: linear-gradient(90deg, #000618 2.31%, #00C3FD 47.25%, #000618 99.25%);
+  border-radius: 400px;
+  padding: 6px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  margin: 0;
 }
