@@ -63,9 +63,9 @@ $(document).ready(function(){
 
 $('.team-slide').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
-  slidesToShow: 4,
+  slidesToShow: 3,
   autoplay:true,
   autoplaySpeed:2000,
   slidesToScroll: 1,
